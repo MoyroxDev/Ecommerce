@@ -1,0 +1,130 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Abrigo 1",
+        "precio": 123.45,
+        "url": "/img/abrigos/01.jpg",
+        "categoria": "abrigos"
+      },
+      {
+        "id": 2,
+        "nombre": "Abrigo 2",
+        "precio": 115.99,
+        "url": "/img/abrigos/02.jpg",
+        "categoria": "abrigos"
+      },
+      {
+        "id": 3,
+        "nombre": "Abrigo 3",
+        "precio": 140.75,
+        "url": "/img/abrigos/03.jpg",
+        "categoria": "abrigos"
+      },
+      {
+        "id": 4,
+        "nombre": "Abrigo 4",
+        "precio": 180.00,
+        "url": "/img/abrigos/04.jpg",
+        "categoria": "abrigos"
+      },
+      {
+        "id": 5,
+        "nombre": "Abrigo 5",
+        "precio": 135.25,
+        "url": "/img/abrigos/05.jpg",
+        "categoria": "abrigos"
+      },
+      {
+        "id": 6,
+        "nombre": "Camiseta 1",
+        "precio": 120.50,
+        "url": "/img/camisetas/01.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 7,
+        "nombre": "Camiseta 2",
+        "precio": 110.75,
+        "url": "/img/camisetas/02.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 8,
+        "nombre": "Camiseta 3",
+        "precio": 105.00,
+        "url": "/img/camisetas/03.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 9,
+        "nombre": "Camiseta 4",
+        "precio": 128.99,
+        "url": "/img/camisetas/04.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 10,
+        "nombre": "Camiseta 5",
+        "precio": 132.50,
+        "url": "/img/camisetas/05.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 11,
+        "nombre": "Camiseta 6",
+        "precio": 100.75,
+        "url": "/img/camisetas/06.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 12,
+        "nombre": "Camiseta 7",
+        "precio": 117.99,
+        "url": "/img/camisetas/07.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 13,
+        "nombre": "Camiseta 8",
+        "precio": 125.50,
+        "url": "/img/camisetas/08.jpg",
+        "categoria": "camisetas"
+      },
+      {
+        "id": 14,
+        "nombre": "Pantalón 1",
+        "precio": 150.00,
+        "url": "/img/pantalones/01.jpg",
+        "categoria": "pantalones"
+      },
+      {
+        "id": 15,
+        "nombre": "Pantalón 2",
+        "precio": 165.50,
+        "url": "/img/pantalones/02.jpg",
+        "categoria": "pantalones"
+      },
+      {
+        "id": 16,
+        "nombre": "Pantalón 3",
+        "precio": 110.75,
+        "url": "/img/pantalones/03.jpg",
+        "categoria": "pantalones"
+      },
+      {
+        "id": 17,
+        "nombre": "Pantalón 4",
+        "precio": 200.00,
+        "url": "/img/pantalones/04.jpg",
+        "categoria": "pantalones"
+      },
+      {
+        "id": 18,
+        "nombre": "Pantalón 5",
+        "precio": 250.25,
+        "url": "/img/pantalones/05.jpg",
+        "categoria": "pantalones"
+      }
+    ]  
+}
