@@ -7,8 +7,9 @@ productosDisponibles = productosDisponibles.map(p => new Producto(p.id,p.nombre,
 let carrito = [];
 
 const containerProductos = document.querySelector(".container-productos");
+const containerBars = document.querySelector(".container-bars");
 const numero = document.querySelector(".numero");
-
+const aside = document.querySelector(".aside");
 
 sessionStorage.setItem("productosDisponibles",JSON.stringify(productosDisponibles));
 renderizarProductos(productosDisponibles,containerProductos);
@@ -68,7 +69,7 @@ function addEventoBtnAdd(){
     const botonesAdd = document.querySelectorAll(".btnAdd");
     botonesAdd.forEach(btn =>{
         btn.addEventListener("click",(e) =>{
-            mostrarToastify("producto agregado");
+            mostrarToastify("producto agregado",document.body.clientWidth);
             let id = parseInt( e.target.id);
             let productoSelect = productosDisponibles.find(p => p.id === id);
 
@@ -111,3 +112,6 @@ function eliminarClase(items,clase) {
     items.forEach(item => item.classList.remove(clase));
 }
 
+containerBars.addEventListener("click",() =>{
+    aside.classList.toggle("aside-active")
+})
