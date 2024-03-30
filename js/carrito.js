@@ -5,8 +5,10 @@ const productosDisponibles = JSON.parse(sessionStorage.getItem("productosDisponi
 let productosCarrito = JSON.parse(sessionStorage.getItem("carrito"));
 
 const indicadorCarrito = document.querySelector(".indicadorCarrito");
+const containerBars = document.querySelector(".container-bars");
 const btnComprar = document.querySelector(".btn-comprar")
 const btnVaciar = document.querySelector(".btnVaciar");
+const aside = document.querySelector(".aside");
 const tabla = document.querySelector(".table");
 
 comprobarValores();
@@ -65,7 +67,7 @@ function addEventoBtnDeleta() {
 
     bontonesEliminar.forEach(btn => {
         btn.addEventListener("click",(e) =>{
-            mostrarToastify("producto eliminado");
+            mostrarToastify("producto eliminado",document.body.clientWidth);
             let id = parseInt(e.target.id);
             let i = devolverPosicion(id,productosCarrito);
 
@@ -133,4 +135,7 @@ function devolverPosicion(id,productos) {
     }
 }
 
+containerBars.addEventListener("click",() =>{
+    aside.classList.toggle("aside-active")
+})
 
